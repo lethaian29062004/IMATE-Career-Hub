@@ -1,0 +1,74 @@
+## =========================================
+## .NET CORE BACKEND
+## =========================================
+
+# Build results
+bin/
+obj/
+out/
+
+publish/
+PublishProfiles/
+temp_api_build/
+temp_build/
+
+
+# NuGet packages
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+*.lock.json
+
+
+# IDEs & Editors
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.DotSettings.user
+
+
+# Secrets & Configuration (CRITICAL)
+appsettings.json
+appsettings.*.json
+!appsettings.example.json
+!appsettings.Example.json
+Imate.API/serviceAccountKey.json
+.env
+.env.*
+
+# Logs & Temp files
+logs/
+*.log
+build.log
+build.txt
+build_errors.log
+build_result.txt
+full_build.log
+msbuild.log
+crash*.log
+err.txt
+errors_only.txt
+update_log.txt
+diff_vs_main.patch
+
+# Testing
+TestResults/
+coverage.json
+coverage.opencover.xml
+Imate.API.UnitTest/coverage.json
+Imate.API.UnitTest/coverage.opencover.xml
+
+# EF Core Migrations (Uncomment if you want to ignore migrations)
+# Migrations/
+
+# OS specific
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
