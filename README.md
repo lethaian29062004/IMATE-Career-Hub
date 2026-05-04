@@ -3,6 +3,10 @@
 ## Description
 This project is a comprehensive **educational and recruitment platform** specifically built to help IT candidates easily connect with the real-world job market, while simultaneously providing **recruiters with dedicated tools to effortlessly source and manage top tech talent**. The application provides an **all-in-one ecosystem** where candidates can practice their skills through **interactive mock interviews powered by AI, get their resumes automatically analyzed for improvements, and seamlessly schedule real-time 1-on-1 sessions with experienced mentors**, alongside a professional workspace for companies to **publish job vacancies and seamlessly track applicant resumes throughout the hiring process**. The system is designed with a highly scalable multi-layer architecture that securely integrates modern programming frameworks and external services to handle complex daily operations smoothly.
 
+## 🌐 Live Access / Demo
+You can easily access and test the application directly without any local setup by visiting our live deployment:
+👉 **[Visit IMATE Live: https://imate.vn/](https://imate.vn/)**
+
 ## Key Features
 * **AI-Driven Mock Interviews (Candidate):** Dynamic question generation and real-time candidate evaluation powered by Google Gemini, augmented with Azure Speech Synthesis (TTS) for natural voice interactions.
 * **Automated CV Analysis (Candidate):** Intelligent parsing of resumes to determine IT-relevance, estimate candidate proficiency levels, and identify skill gaps against provided Job Descriptions (JD).
@@ -94,7 +98,7 @@ The repository follows a strict N-Tier architecture for the backend and a featur
 
 ```
 
-## How To Run The Application (Local Development)
+## How To Run The Application (Locally)
 
 ### 1. Prerequisites
 Ensure you have the following installed on your local machine before proceeding:
@@ -107,7 +111,7 @@ Ensure you have the following installed on your local machine before proceeding:
 To explore the code and start the backend server:
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/lethaian29062004/AI-Powered-Interview-Mentoring-Platform.git](https://github.com/lethaian29062004/AI-Powered-Interview-Mentoring-Platform.git)
+    git clone [https://github.com/lethaian29062004/IMATE-Career-Hub.git](https://github.com/lethaian29062004/IMATE-Career-Hub.git)
     ```
 2.  **Navigate to the API directory:**
     ```bash
