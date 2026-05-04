@@ -1,15 +1,17 @@
-# AI-Powered Interview Mentoring Platform (IMATE)
+# IMATE: AI-Powered Interview, Mentoring & Hiring Platform 
 
 ## Description
-An enterprise-grade HRTech and EdTech platform designed to bridge the gap between IT candidates and the job market. The application features a comprehensive ecosystem that combines AI-driven mock interviews, automated CV analysis, and a real-time mentor booking system. Built with a scalable N-Tier Cloud-Native architecture, this project serves as a comprehensive thesis implementation at the Vietnamese-German University (VGU), demonstrating advanced integrations of modern frameworks, third-party cloud services, and complex business logic.
+This project is a comprehensive **educational and recruitment platform** specifically built to help IT candidates easily connect with the real-world job market, while simultaneously providing **recruiters with dedicated tools to effortlessly source and manage top tech talent**. The application provides an **all-in-one ecosystem** where candidates can practice their skills through **interactive mock interviews powered by AI, get their resumes automatically analyzed for improvements, and seamlessly schedule real-time 1-on-1 sessions with experienced mentors**, alongside a professional workspace for companies to **publish job vacancies and seamlessly track applicant resumes throughout the hiring process**. The system is designed with a highly scalable multi-layer architecture that securely integrates modern programming frameworks and external services to handle complex daily operations smoothly.
 
 ## Key Features
-* **🧠 AI-Driven Mock Interviews:** Dynamic question generation and real-time candidate evaluation powered by Google Gemini, augmented with Azure Speech Synthesis (TTS) for natural voice interactions.
-* **📄 Automated CV Analysis:** Intelligent parsing of resumes to determine IT-relevance, estimate candidate proficiency levels, and identify skill gaps against provided Job Descriptions (JD).
-* **🧑‍🏫 Mentor Booking & RTC Video Calls:** A seamless scheduling system integrated with Agora RTC for high-quality, real-time peer-to-peer video mentoring sessions.
-* **💳 Integrated Wallet & Payments:** Secure in-app wallet management, subscription packages, and transaction processing powered by the PayOS gateway.
-* **🔐 Advanced Role-Based Access Control (RBAC):** Secure JWT-based authentication handling diverse privileges across five distinct roles: Candidate, Mentor, Recruiter, Staff, and Admin.
-* **⚡ Real-Time Notifications:** Instant cross-platform alerts and workflow updates powered by SignalR WebSockets.
+* **AI-Driven Mock Interviews (Candidate):** Dynamic question generation and real-time candidate evaluation powered by Google Gemini, augmented with Azure Speech Synthesis (TTS) for natural voice interactions.
+* **Automated CV Analysis (Candidate):** Intelligent parsing of resumes to determine IT-relevance, estimate candidate proficiency levels, and identify skill gaps against provided Job Descriptions (JD).
+* **Job Posting & Management (Recruiter):** Comprehensive tools to create, publish, and manage IT job vacancies, allowing recruiters to effortlessly reach a targeted pool of tech professionals.
+* **Applicant Tracking & CV Management (Recruiter):** A streamlined dashboard to receive applications, review submitted resumes, and efficiently track candidates throughout the hiring pipeline.
+* **Mentor Booking & RTC Video Calls (Candidate, Mentor):** A seamless scheduling system integrated with Agora RTC for high-quality, real-time peer-to-peer video mentoring sessions.
+* **Integrated Wallet & Payments (Candidate, Mentor):** Secure in-app wallet management, subscription packages, and automated transaction processing powered by the PayOS gateway.
+* **Advanced Role-Based Access Control (RBAC):** Secure JWT-based authentication handling diverse privileges across five distinct roles: Candidate, Mentor, Recruiter, Staff, and Admin.
+* **Real-Time Notifications:** Instant cross-platform alerts and workflow updates powered by SignalR WebSockets to keep all users seamlessly connected.
 
 ## Technology Stack
 **Frontend (Web):** 
