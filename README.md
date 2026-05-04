@@ -90,7 +90,7 @@ The repository follows a strict N-Tier architecture for the backend and a featur
             └── vite.config.ts                  # Vite bundler and build configuration
 
 
-
+```
 
 ## How To Run The Application (Local Development)
 
